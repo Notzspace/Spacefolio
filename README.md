@@ -30,38 +30,38 @@ Want to run Spacefolio locally? Follow these steps to get it up and running:
 
 1. **Clone the Repository**
 
-'''bash
+```bash
 git clone https://github.com/Notzspace/Spacefolio.git
 cd Spacefolio
-'''
+```
 
 2. **Install Dependencies**
-'''bash
+```bash
 npm install
-'''
+```
 
 or
-'''bash
+```bash
 yarn install
-'''
+```
 
 
 3. **Run the Development Server**
-'''bash
+```bash
 npm run dev
-'''
+```
 
 or
-'''bash
+```bash
 yarn dev
-'''
+```
 
 Open http://localhost:5173 (or the port specified) in your browser to view the site.
 
 4. **Build for Production**
-'''bash
+```bash
 npm run build
-'''
+```
 
 The output will be in the dist folder.
 
@@ -74,11 +74,11 @@ Deploying to Netlify
 Build the ProjectEnsure you’ve run npm run build to generate the dist folder.
 
 Push to GitHubEnsure your project is in a GitHub repository:
-'''bash
+```bash
 git add .
 git commit -m "Ready for deployment"
 git push origin main
-'''
+```
 
 
 Connect to Netlify
